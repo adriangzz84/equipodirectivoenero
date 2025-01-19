@@ -1,0 +1,140 @@
+index.html
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejecución Estratégica</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .card {
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gray-800">Ejecución Estratégica</div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-8">
+        <section class="text-center py-12">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">
+                Framework de Ejecución Estratégica
+            </h1>
+            <p class="text-xl text-gray-600 mb-8">
+                Transformando la planificación en resultados tangibles
+            </p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Claridad y Propósito -->
+            <div class="card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold ml-3">Claridad y Propósito</h3>
+                </div>
+                <ul class="space-y-2">
+                    <li class="text-gray-600">• Definir el 'para qué' de cada iniciativa</li>
+                    <li class="text-gray-600">• Alinear acciones con intención</li>
+                    <li class="text-gray-600">• Establecer prioridades claras</li>
+                </ul>
+            </div>
+
+            <!-- Gestión de Incertidumbre -->
+            <div class="card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold ml-3">Gestión de Incertidumbre</h3>
+                </div>
+                <ul class="space-y-2">
+                    <li class="text-gray-600">• Identificar variables controlables</li>
+                    <li class="text-gray-600">• Convertir incertidumbre en oportunidades</li>
+                    <li class="text-gray-600">• Enfoque en lo manejable</li>
+                </ul>
+            </div>
+
+            <!-- Competencias Clave -->
+            <div class="card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold ml-3">Competencias Clave</h3>
+                </div>
+                <ul class="space-y-2">
+                    <li class="text-gray-600">• Ciclo competencia-confianza</li>
+                    <li class="text-gray-600">• Fortalecer habilidades</li>
+                    <li class="text-gray-600">• Aprendizaje continuo</li>
+                </ul>
+            </div>
+
+            <!-- Responsabilidad y Ejecución -->
+            <div class="card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold ml-3">Responsabilidad y Ejecución</h3>
+                </div>
+                <ul class="space-y-2">
+                    <li class="text-gray-600">• De la queja a la acción</li>
+                    <li class="text-gray-600">• Responsabilidad por resultados</li>
+                    <li class="text-gray-600">• Rendición de cuentas</li>
+                </ul>
+            </div>
+
+            <!-- Cultura Organizacional -->
+            <div class="card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold ml-3">Cultura Organizacional</h3>
+                </div>
+                <ul class="space-y-2">
+                    <li class="text-gray-600">• Optimismo realista</li>
+                    <li class="text-gray-600">• Fomentar resiliencia</li>
+                    <li class="text-gray-600">• Equipo enfocado y motivado</li>
+                </ul>
+            </div>
+
+            <!-- Mindset de Ejecución -->
+            <div class="card bg-white rounded-lg shadow-md p-6">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold ml-3">Mindset de Ejecución</h3>
+                </div>
+                <ul class="space-y-2">
+                    <li class="text-gray-600">• Hacer que las cosas sucedan</li>
+                    <li class="text-gray-600">• Foco en soluciones</li>
+                    <li class="text-gray-600">• Celebrar avances y aprender</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <p>&copy; 2024 Framework de Ejecución Estratégica</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+```
